@@ -13,8 +13,8 @@ class Nijigasaki(object):
     BEGIN = "__BEGIN_SENTENCE__"
     END = "__END_SENTENCE__"
 
-    DB_PATH = "nijigasaki"
-    DB_SCHEMA_PATH = "nijigasaki.sql"
+    DB_PATH = "./dataset/nijigasaki"
+    DB_SCHEMA_PATH = "./dataset/nijigasaki.sql"
 
     def __init__(self, text):
         """
